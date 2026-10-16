@@ -1,10 +1,8 @@
 frauddetector/
-data/
-*.csv
-*.json
 .DS_Store
 __pycache__/
-*.pkl
-*.joblib
-models/*.joblib
-models/*.pkl
+
+# ignore raw and large datasets
+data/*
+!data/simulation_pool.csv
+!data/customer_profiles.csv
