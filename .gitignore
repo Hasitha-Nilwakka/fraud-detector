@@ -1,2 +1,10 @@
 frauddetector/
 data/
+*.csv
+*.json
+.DS_Store
+__pycache__/
+*.pkl
+*.joblib
+models/*.joblib
+models/*.pkl
